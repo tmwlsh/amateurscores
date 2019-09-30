@@ -5,7 +5,7 @@ import styled from 'styled-components';
 export default function Layout(props) {
     return (
         <ContainerTag>
-        {props.children}
+            {props.children}
         </ContainerTag>
     )
 }

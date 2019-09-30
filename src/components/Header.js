@@ -8,26 +8,29 @@ export default function Header(props) {
     return (
         <HeaderTag>
             <Layout>
-                <Link className="logo" to="/">
-                    <img src={'/main-logo.png'} alt="Logo" />
-                </Link>
-                <p>test</p>
+                <nav>
+                    <Link className="logo" to="/">
+                        <img src={'/main-logo.png'} alt="Logo" />
+                    </Link>
+                    <p>test</p>
+                </nav>
             </Layout>
         </HeaderTag>
     )
 }
 
 const HeaderTag = styled.header`
-    background: #3c3c3c;
+    background: #5d5d5d;
     padding: 30px 0;
-    div {
+    nav {
         display: flex;
         justify-content: space-between;
         align-items: center;
-    }
-    .logo {
-        img {
-            max-width: 200px;
+        .logo {
+            padding: 0 10px;
+            img {
+                max-width: 200px;
+            }
         }
     }
 `;
