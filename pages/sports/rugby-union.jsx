@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 import Header from '../../components/Header';
 import LeagueTable from '../../components/LeagueTable';
+import Fixtures from '../../components/Fixtures';
 
 export default function Sport() {
   return (
@@ -8,6 +9,7 @@ export default function Sport() {
       <Header />
       <ContainerTag>
         <LeagueTable />
+        <Fixtures />
       </ContainerTag>
     </div>
   );
