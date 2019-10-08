@@ -8,7 +8,6 @@ export default function Sport() {
     <div>
       <Header />
       <ContainerTag>
-        <LeagueTable />
         <Fixtures />
       </ContainerTag>
     </div>

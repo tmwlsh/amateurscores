@@ -50,7 +50,7 @@ export default function Header() {
               </li>
               <li>
                 <Link href="/">
-                  <a>Results</a>
+                  <a>Tables</a>
                 </Link>
               </li>
             </ul>
